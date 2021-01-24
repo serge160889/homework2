@@ -94,5 +94,21 @@ public class Main {
             System.out.println( );
 
         }
+        System.out.println("");
+
+//        Расчет факториала 5!
+        int[] fam =new int[5];
+        fam[0]=1;
+        fam[1]=2;
+        fam[2]=3;
+        fam[3]=4;
+        fam[4]=5;
+        int s=1;
+        for(int i=0;i<fam.length;i++) {
+            s=s*fam[i];
+            }
+        System.out.print("5!="+s);
+        }
     }
-}
+
+
