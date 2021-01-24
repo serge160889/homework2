@@ -32,33 +32,67 @@ public class Main {
             System.out.printf("Вы ввели неправильное число");
         }
         System.out.println();
-        switch (month){
+        switch (month) {
             case 1:
-                System.out.println("Зима");break;
+                System.out.println("Зима");
+                break;
             case 2:
-                System.out.println("Зима");break;
+                System.out.println("Зима");
+                break;
             case 3:
-                System.out.println("Весна");break;
+                System.out.println("Весна");
+                break;
             case 4:
-                System.out.println("Весна");break;
+                System.out.println("Весна");
+                break;
             case 5:
-                System.out.println("Весна");break;
+                System.out.println("Весна");
+                break;
             case 6:
-                System.out.println("Лето");break;
+                System.out.println("Лето");
+                break;
             case 7:
-                System.out.println("Лето");break;
+                System.out.println("Лето");
+                break;
             case 8:
-                System.out.println("Лето");break;
+                System.out.println("Лето");
+                break;
             case 9:
-                System.out.println("Осень");break;
+                System.out.println("Осень");
+                break;
             case 10:
-                System.out.println("Осень");break;
+                System.out.println("Осень");
+                break;
             case 11:
-                System.out.println("Осень");break;
+                System.out.println("Осень");
+                break;
             case 12:
-                System.out.println("Зима");break;
+                System.out.println("Зима");
+                break;
             default:
                 System.out.println("Вы ввели неправильное значение");
+        }
+        System.out.println(   );
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+        for (int z=arr.length-1; z >=0; z=z-1) {
+            System.out.print( arr[z]);
+            System.out.print("  ");
+        }
+        System.out.println("  ");
+        System.out.println("  ");
+        int[][]squareArray=new int[3][2];
+        squareArray[0][0]=8;
+        squareArray[0][1]=9;
+        squareArray[1][0]=7;
+        squareArray[1][1]=4;
+        squareArray[2][0]=11;
+        squareArray[2][1]=13;
+        for(int m=0;m<squareArray.length;m++) {
+            for (int n = 0; n < squareArray[m].length; n++) {
+                System.out.print("  "+squareArray[m][n]+"["+m+"]"+"["+n+"]");
+            }
+            System.out.println( );
+
         }
     }
 }
